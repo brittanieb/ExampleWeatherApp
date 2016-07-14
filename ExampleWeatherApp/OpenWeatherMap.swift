@@ -2,7 +2,7 @@
 //
 
 struct OpenWeatherMap {
-    private static let apiKey = "79a552d1d5657cf2ed1bfd02b8a46780"
+    private static let apiKey = "35b7ff789250c361000965d1d7da14ab"
     
     private static let cityIds = [
         6077243, 524901, 5368361, 1835848, 3128760, 4180439,
