@@ -21,6 +21,7 @@
 		145BF8551D381A720080F755 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8411D380D6A0080F755 /* Swinject.framework */; };
 		145BF8561D381AC70080F755 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8401D380D6A0080F755 /* Nimble.framework */; };
 		145BF8571D381AC70080F755 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8461D38154A0080F755 /* Quick.framework */; };
+		145BF8591D381C110080F755 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BF8581D381C110080F755 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		145BF8411D380D6A0080F755 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		145BF8461D38154A0080F755 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		145BF8471D38154A0080F755 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		145BF8581D381C110080F755 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				145BF81F1D3802990080F755 /* AppDelegate.swift */,
 				145BF8211D3802990080F755 /* ViewController.swift */,
+				145BF8581D381C110080F755 /* City.swift */,
 				145BF8231D3802990080F755 /* Main.storyboard */,
 				145BF8261D3802990080F755 /* Assets.xcassets */,
 				145BF8281D3802990080F755 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			files = (
 				145BF8221D3802990080F755 /* ViewController.swift in Sources */,
 				145BF8201D3802990080F755 /* AppDelegate.swift in Sources */,
+				145BF8591D381C110080F755 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
