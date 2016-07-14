@@ -13,11 +13,14 @@
 		145BF8271D3802990080F755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145BF8261D3802990080F755 /* Assets.xcassets */; };
 		145BF82A1D3802990080F755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145BF8281D3802990080F755 /* LaunchScreen.storyboard */; };
 		145BF8351D3802990080F755 /* ExampleWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BF8341D3802990080F755 /* ExampleWeatherAppTests.swift */; };
-		145BF8421D380D6A0080F755 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF83F1D380D6A0080F755 /* Alamofire.framework */; };
-		145BF8431D380D6A0080F755 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8401D380D6A0080F755 /* Nimble.framework */; };
-		145BF8441D380D6A0080F755 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8411D380D6A0080F755 /* Swinject.framework */; };
-		145BF8481D38154A0080F755 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8461D38154A0080F755 /* Quick.framework */; };
-		145BF8491D38154A0080F755 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8471D38154A0080F755 /* SwiftyJSON.framework */; };
+		145BF84C1D3816D30080F755 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8471D38154A0080F755 /* SwiftyJSON.framework */; };
+		145BF84D1D3816D30080F755 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8471D38154A0080F755 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		145BF84E1D3816D30080F755 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF83F1D380D6A0080F755 /* Alamofire.framework */; };
+		145BF84F1D3816D30080F755 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF83F1D380D6A0080F755 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		145BF8531D3816D30080F755 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8411D380D6A0080F755 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		145BF8551D381A720080F755 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8411D380D6A0080F755 /* Swinject.framework */; };
+		145BF8561D381AC70080F755 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8401D380D6A0080F755 /* Nimble.framework */; };
+		145BF8571D381AC70080F755 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8461D38154A0080F755 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,22 @@
 			remoteInfo = ExampleWeatherApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		145BF8541D3816D30080F755 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				145BF84D1D3816D30080F755 /* SwiftyJSON.framework in Embed Frameworks */,
+				145BF84F1D3816D30080F755 /* Alamofire.framework in Embed Frameworks */,
+				145BF8531D3816D30080F755 /* Swinject.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		145BF81C1D3802990080F755 /* ExampleWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,11 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145BF8481D38154A0080F755 /* Quick.framework in Frameworks */,
-				145BF8491D38154A0080F755 /* SwiftyJSON.framework in Frameworks */,
-				145BF8421D380D6A0080F755 /* Alamofire.framework in Frameworks */,
-				145BF8431D380D6A0080F755 /* Nimble.framework in Frameworks */,
-				145BF8441D380D6A0080F755 /* Swinject.framework in Frameworks */,
+				145BF8551D381A720080F755 /* Swinject.framework in Frameworks */,
+				145BF84C1D3816D30080F755 /* SwiftyJSON.framework in Frameworks */,
+				145BF84E1D3816D30080F755 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145BF8561D381AC70080F755 /* Nimble.framework in Frameworks */,
+				145BF8571D381AC70080F755 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +146,7 @@
 				145BF8191D3802990080F755 /* Frameworks */,
 				145BF81A1D3802990080F755 /* Resources */,
 				145BF8451D380DDB0080F755 /* ShellScript */,
+				145BF8541D3816D30080F755 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +251,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -399,6 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleWeatherAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ExampleWeatherAppTests;
@@ -411,6 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleWeatherAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ExampleWeatherAppTests;
