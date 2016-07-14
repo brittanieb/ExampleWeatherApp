@@ -23,6 +23,7 @@
 		145BF8571D381AC70080F755 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145BF8461D38154A0080F755 /* Quick.framework */; };
 		145BF8591D381C110080F755 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BF8581D381C110080F755 /* City.swift */; };
 		145BF85B1D381C4D0080F755 /* OpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BF85A1D381C4D0080F755 /* OpenWeatherMap.swift */; };
+		145BF8641D381DD90080F755 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BF8631D381DD90080F755 /* WeatherFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		145BF8471D38154A0080F755 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		145BF8581D381C110080F755 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		145BF85A1D381C4D0080F755 /* OpenWeatherMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherMap.swift; sourceTree = "<group>"; };
+		145BF8631D381DD90080F755 /* WeatherFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				145BF8261D3802990080F755 /* Assets.xcassets */,
 				145BF8281D3802990080F755 /* LaunchScreen.storyboard */,
 				145BF82B1D3802990080F755 /* Info.plist */,
+				145BF8631D381DD90080F755 /* WeatherFetcher.swift */,
 			);
 			path = ExampleWeatherApp;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				145BF8221D3802990080F755 /* ViewController.swift in Sources */,
+				145BF8641D381DD90080F755 /* WeatherFetcher.swift in Sources */,
 				145BF8201D3802990080F755 /* AppDelegate.swift in Sources */,
 				145BF8591D381C110080F755 /* City.swift in Sources */,
 				145BF85B1D381C4D0080F755 /* OpenWeatherMap.swift in Sources */,
@@ -475,6 +479,7 @@
 				145BF83B1D3802990080F755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		145BF83C1D3802990080F755 /* Build configuration list for PBXNativeTarget "ExampleWeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				145BF83E1D3802990080F755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
